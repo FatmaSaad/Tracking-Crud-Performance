@@ -8,7 +8,7 @@ class TagController extends Controller
 {
     public function index()
     {
-        // $tags = Tag::with('posts:posts.id')->paginate(50);
+        //$tags = Tag::with('posts:posts.id')->paginate(50);
              // queries => 3 statements were executed290ms ✖
              // models => App\Models\Post
                         // 150000 ✖

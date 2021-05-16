@@ -22,6 +22,6 @@ use App\Http\Controllers\TagController;
 // });
 Route::get('/',function(){ return redirect('/posts'); });  
 Route::get('/posts', [PostController::class, 'index']);
-
+Route::get('/lastDayPosts', [PostController::class, 'lastDayIndex']);
 Route::get('/categories', [CategoryController::class, 'index']);
 Route::get('/tags', [TagController::class, 'index']);
